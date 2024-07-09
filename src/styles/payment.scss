@@ -1,0 +1,40 @@
+.payment-container {
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    h2 {
+      color: #333;
+    }
+    
+    QRCode {
+      margin-top: 20px;
+      max-width: 200px.0;
+    }
+    
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+   .pnr-list{
+    button{
+      margin: 10px;
+    }
+    // p{
+    //   padding-top: 100px;
+    // }
+   }
+  }
+  
+  

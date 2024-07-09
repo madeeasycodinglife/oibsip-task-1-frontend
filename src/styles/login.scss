@@ -1,0 +1,92 @@
+.login_img {
+    width: 60%;
+    text-align: center;
+  
+    img {
+      width: 70%;
+      object-fit: contain;
+    }
+  }
+  
+  .login_form {
+    padding: 50px;
+    background: var(--colorTwo);
+    position: relative;
+    width: 40%;
+    // height: calc(100% - 200px);
+  
+    input {
+      width: 100%;
+      padding: 0.5rem 1rem;
+      margin: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+      color: var(--blackColor);
+        
+      &:focus{
+        outline: none;
+      }
+    }
+
+    .auth_btn{
+        background: var(--PrimaryColor) !important;
+        width: 100%;
+        color: var(--whiteColor) !important;
+        margin: 5px;
+    }
+    p{
+        font-size: 0.9rem;
+        color: var(--textColor);
+        margin-top: 1.5rem;
+        text-align: center;
+        a{
+            color: var(--blackColor);
+            text-decoration: none;
+            margin-left: 5px;
+            font-weight: 500;
+        }
+    }
+}
+  
+  .login_container {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-top: 100px;
+  
+    .login_form {
+      .user {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: -7%;
+        left: 50%;
+        transform: translate(-50%, -9%);
+  
+        img {
+          width: 100%;
+        }
+      }
+  
+      p {
+        color: var(--whiteColor);
+      }
+  
+      h2 {
+        color: var(--whiteColor);
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    }
+  
+    @media screen and (min-width: 831px) {
+      .login_form {
+        padding: 100px 50px 100px 50px;
+      }
+    }
+    @media screen and (min-width: 1536px) {
+        .login_form {
+          padding: 160px 50px 160px 50px;
+        }
+      }
+  }
+  
